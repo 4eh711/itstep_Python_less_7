@@ -1,10 +1,10 @@
-def raise_to_the_degrees (number, max_degree):
+def raise_to_the_degrees (number):
     i=0
-    for _ in range(max_degree):
+    while True:
         yield number**i
         i+=1
 
-res = raise_to_the_degrees(2, 500)
+res = raise_to_the_degrees(122345)
 print(res)
 for _ in res:
     print(_)
