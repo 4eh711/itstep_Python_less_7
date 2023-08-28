@@ -4,3 +4,7 @@ iterator = iter(my_list)
 
 for elem in iterator:
     print(elem)
+
+
+for elem in iterator:
+    print(elem)
