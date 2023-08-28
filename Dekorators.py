@@ -8,8 +8,8 @@ def cheker(function):
             print(f"No problems. Result - {result}")
     return  cheker
 
+@cheker
 def calculate(expression):
     return eval(expression)
 
-calculate = cheker(calculate)
 calculate("2+2")
